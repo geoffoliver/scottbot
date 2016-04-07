@@ -4,9 +4,9 @@ if(isset($_GET['code'])){
 	$code = $_GET['code'];
 	$parameters = [
 		'code' => $code,
-		'client_id' => 'CLIENT_ID',
-		'client_secret' => 'CLIENT_SECRET',
-		'redirect_uri' => 'https://url.to/scottbot.php'
+		'client_id' => '',
+		'client_secret' => '',
+		'redirect_uri' => '/scottbot.php'
 	];
 	$url = 'https://slack.com/api/oauth.access?'.http_build_query($parameters);
 	$response = @file_get_contents($url);
@@ -30,9 +30,6 @@ if(isset($_GET['code'])){
 }
 
 $tokens = [
-	'SLASH',
-	'COMMAND',
-	'TOKEN[S]'
 ];
 
 $gifs = [
@@ -46,6 +43,10 @@ $gifs = [
 	'http://i.giphy.com/3v3UJcRl0NhUk.gif',
 	'http://i.giphy.com/8wkXMxbONnEFq.gif',
 	'http://i.giphy.com/JwbRf8zJuJKUw.gif',
+	'http://i.giphy.com/f8pT7bphqES4M.gif',
+	'http://38.media.tumblr.com/bede5cee705952d6a32b1c4d5f4b9f4b/tumblr_npbvtvNmtH1u5g4cmo8_r1_250.gif',
+	'http://24.media.tumblr.com/tumblr_ma48lyNTOi1rynk4uo6_250.gif',
+	'https://img.buzzfeed.com/buzzfeed-static/static/2016-01/21/8/enhanced/webdr03/anigif_enhanced-23712-1453382777-2.gif',
 	
 ];
 
@@ -75,7 +76,8 @@ $quotes = [
 	'Yeah I am fussy! Aspirins not gonna do a damn thing! Im sitting here with a bloody stump of a foot.',
 	'Yankee Swap is like Machiavelli meets Christmas',
 	'I know a ton of 14-year old girls that could kick his ass.',
-	'I\'m an early bird and a night owl. So Im wise and I have worms.'
+	'I\'m an early bird and a night owl. So Im wise and I have worms.',
+	'Is there a god? If not, what are all these churches for? And who is Jesus\' dad?'
 ];
 if(isset($_POST['token'])){
 	if(in_array($_POST['token'], $tokens)){
