@@ -73,10 +73,10 @@ $quotes = [
 	'Wow, all these charts and graphs. Someone\'s been doing their homework... looks like USA Today.',
 	'Captain Jack\'s a fart face.',
 	'Is this done? Extreme Home Makeover puts together a house in an hour. If you were on that crew you would be fired like that!',
-	'Yeah I am fussy! Aspirins not gonna do a damn thing! Im sitting here with a bloody stump of a foot.',
+	'Yeah I am fussy! Aspirins not gonna do a damn thing! I\'m sitting here with a bloody stump of a foot.',
 	'Yankee Swap is like Machiavelli meets Christmas',
 	'I know a ton of 14-year old girls that could kick his ass.',
-	'I\'m an early bird and a night owl. So Im wise and I have worms.',
+	'I\'m an early bird and a night owl. So I\'m wise and I have worms.',
 	'Is there a god? If not, what are all these churches for? And who is Jesus\' dad?'
 ];
 if(isset($_POST['token'])){
