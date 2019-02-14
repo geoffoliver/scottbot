@@ -39,7 +39,6 @@ $gifs = [
 	'http://i.imgur.com/0tfyZnk.gif',
 	'https://s-media-cache-ak0.pinimg.com/736x/cf/c6/c0/cfc6c0b47d2498e1919bd8b00c325453.jpg',
 	'http://cdn.head-fi.org/a/aa/aa38095b_Michael-Scott-The-Office-Thats-What-She-Said-Meme.jpeg',
-	'http://cdn.meme.am/instances/250x250/23260590.jpg',
 	'http://i.giphy.com/3v3UJcRl0NhUk.gif',
 	'http://i.giphy.com/8wkXMxbONnEFq.gif',
 	'http://i.giphy.com/JwbRf8zJuJKUw.gif',
