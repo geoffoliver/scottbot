@@ -29,6 +29,7 @@ if(isset($_GET['code'])){
 	exit();
 }
 
+// you need to add your own slack tokens here
 $tokens = [
 ];
 
