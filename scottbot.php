@@ -35,7 +35,6 @@ $tokens = [
 
 $gifs = [
 	'http://33.media.tumblr.com/eb09e03e6e17e8312bfe85c413733a57/tumblr_n3fimjrU4o1st03tqo1_400.gif',
-	'http://cdn1.theodysseyonline.com/files/2015/01/08/635562833871498009-1021898447_TWSS.jpg',
 	'http://i.imgur.com/cspFdSg.gif',
 	'http://i.imgur.com/0tfyZnk.gif',
 	'https://s-media-cache-ak0.pinimg.com/736x/cf/c6/c0/cfc6c0b47d2498e1919bd8b00c325453.jpg',
